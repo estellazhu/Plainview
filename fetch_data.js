@@ -53,7 +53,10 @@ function getData(url, tagInfo, index){
 					resolve();
 				}
 			}).catch(function(err){
-				getData(url, tagInfo, index+1);
+				getData(url, tagInfo, index+1)
+						.then(function(){
+							resolve();
+						});
 			});
 		});
 }
