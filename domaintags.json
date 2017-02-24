@@ -1,0 +1,15 @@
+{
+  "abcNews" : {
+    "url" : "http://abcnews.go.com/",
+    "contentTag" : "<p>",
+    "authorTag" : "class = 'author'",
+    "dateTag" : "class = 'timestamp'"
+  },
+
+  "bbc" : {
+    "url" : "http://www.bbc.com/",
+    "contentTag" : "<p>",
+    "authorTag" : "class = 'byline'",
+    "dateTag" : "class = 'date-display-single'"
+  }  
+}
