@@ -4,7 +4,8 @@
       {"tag" : "div.usertext-body", "fieldName": "content"},
       {"tag" : "a.author may-blank", "fieldName": "author"},
       {"tag" : "time", "fieldName": "date"},
-      {"tag" : "div.score > span.number", "fieldName": "upvotes"}
+      {"tag" : "div.score > span.number", "fieldName": "upvotes"},
+      {"tag" : "a.bylink comments may-blank", "fieldName": "comments"}
     ]
   }
 }
