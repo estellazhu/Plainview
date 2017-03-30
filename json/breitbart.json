@@ -1,7 +1,7 @@
 {
   "breitbart" : {
     "tagsRetrieval": [
-      {"tag" : "p", "fieldName": "content"},
+      {"tag" : ".entry-content p", "fieldName": "content"},
       {"tag" : "a.byauthor", "fieldName": "author"},
       {"tag" : "span.bydate", "fieldName": "date"}
     ]
