@@ -1,7 +1,7 @@
 {
-  "independent" : {
+  "theindependent" : {
     "tagsRetrieval": [
-      {"tag" : "p", "fieldName": "content"},
+      {"tag" : "div[itemprop='articleBody'] p", "fieldName": "content"},
       {"tag" : "span[itemprop='name'] > a", "fieldName": "author"},
       {"tag" : "time", "fieldName": "date"}
     ]
