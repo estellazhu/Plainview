@@ -1,0 +1,24 @@
+{
+  "supportedDomains" : [
+    "abcnews",
+    "bbc",
+    "breitbart",
+    "cnn",
+    "dailymail",
+    "foxnews",
+    "huffingtonpost",
+    "latimes",
+    "nydailynews",
+    "nypost",
+    "nytimes",
+    "politico",
+    "rawstory",
+    "reddit",
+    "sfgate",
+    "thegatewaypundit",
+    "thehill",
+    "theindependent",
+    "usatoday",
+    "washingtonpost"    
+  ]
+}
