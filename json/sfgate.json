@@ -1,7 +1,7 @@
 {
   "sfgate" : {
     "tagsRetrieval": [
-      {"tag" : "p", "fieldName": "content"},
+      {"tag" : ".article-body p", "fieldName": "content"},
       {"tag" : "p.byline", "fieldName": "author"},
       {"tag" : "h5.timestamp", "fieldName": "date"}
     ]
