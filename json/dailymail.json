@@ -1,7 +1,7 @@
 {
   "dailymail" : {
     "tagsRetrieval": [
-      {"tag" : "p", "fieldName": "content"},
+      {"tag" : "div[itemprop='articleBody'] p", "fieldName": "content"},
       {"tag" : "a.author", "fieldName": "author"},
       {"tag" : "span.article-timestamp", "fieldName": "date"}
     ]
