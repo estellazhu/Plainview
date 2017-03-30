@@ -1,7 +1,7 @@
 {
   "foxnews" : {
     "tagsRetrieval": [
-      {"tag" : "p", "fieldName": "content"},
+      {"tag" : ".article-text p", "fieldName": "content"},
       {"tag" : "div.article-info > div > p > span", "fieldName": "author"},
       {"tag" : "time", "fieldName": "date"}
     ]
