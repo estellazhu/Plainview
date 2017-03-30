@@ -1,7 +1,7 @@
 {
   "cnn" : {
     "tagsRetrieval": [
-      {"tag" : "div.zn-body__paragraph", "fieldName": "content"},
+      {"tag" : ".l-container .zn-body__paragraph", "fieldName": "content"},
       {"tag" : "span.metadata__byline__author", "fieldName": "author"},
       {"tag" : "p.update-time", "fieldName": "date"}
     ]
