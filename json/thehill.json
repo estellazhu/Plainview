@@ -1,7 +1,7 @@
 {
   "thehill" : {
     "tagsRetrieval": [
-      {"tag" : "p", "fieldName": "content"},
+      {"tag" : ".content-wrp p", "fieldName": "content"},
       {"tag" : "span.submitted-by > a", "fieldName": "author"},
       {"tag" : "span.submitted-date", "fieldName": "date"}
     ]
